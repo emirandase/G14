@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    color: #000f08; /* color hexadecimal #RRGGBB */
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * { /* asterisco selecciona todos los elementos asignados al body, ayudando al reseteo de la distribucion de elementos en la página*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em; /* equivalen al 25% del tamaño del h1 */
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size:1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+#ubicacion h2 {
+    margin: 1em;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+    margin-top: 0.5em;
+}
+
+.subtitulo, h4, h5 {
+    font-weight: 400;
+}
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap; /* para que no exista espacios entre los div */
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #707070; /* se añade el text shadow, posicion horizontal valor negativo hacia la izq, segundo, vertical y negativo hacia arriba, el tercero, desenfoque, cuarto es color */
+    padding: 6.25rem 3.125rem; /* dos parametros: arriba y abajo; a un lado y al otro */
+}
+
+section, footer { /*se llama a todas las etiquetas de tipo section y footer */
+    margin-top:75px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.charla-texto, .evento { /*se aplica a ambos */
+    display: inline-block;
+}
+
+.centrado {
+    width: 75%; /*equivale al 75% del contenedor*/
+    margin: 0 auto; /* para centrarlo horizontalmente 0 para arriba y abajo y auto para derecho e izquierdo. */
+}
+
+.charla-speaker { /* propiedad de ancho a la imagen */
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto {  /* propiedad de ancho al div contendor de texto*/
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal; /* para que no exista espacios entre los div */
+}
+
+.evento {
+    width: 30%;
+}
+
+.evento img {
+    width: 75%;
+    margin: 1.2em;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed; /* por defecto se posicion al lado superior izquierdo */
+    width: 100vw; /*se asigna el 100% del ancho de la pantalla*/
+}
+
+nav ul {
+    list-style-type: none; /* para que no se vean las viñetas */
+}
+
+nav ul li { /* a cada li de ese ul que esta dentro del nav */
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.icono {
+    width: 2rem;
+}
+
+.icono svg { /*se cambia el color del svg a blanco */
+    fill:#ffffff;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em; /*0 arriba; 0.25em der; 0.25em abajo; 0.25em izq*/
+}
