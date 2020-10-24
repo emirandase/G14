@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+#resumen {
+    color:#ffffff;
+    display: inline-block;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.3rem;
+    width: 87%;
+}
+
+.iguanaVerde {
+    width: 35%;
+    vertical-align: middle;
+    padding: 2.5% 0% 2.5% 6.8%;
+}
+
+.texto1 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4rem;
+}
+
+#caracteristicas {
+    background-color: #1e1a13;
+    font-weight: 300;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    padding: 3rem;
+    width: auto;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+
+.tercerOjo,.pacificas, .cambioColor{
+    display: inline-block;
+    color: #ffffff;
+    padding: 3rem 9rem;
+}
+
+#ejemplares {
+    width: 100%;
+    display: inline-block;
+}
+
+.img1, .img2, .img3 {
+    width: 29%;
+    padding: 7rem 0.5rem;
+}
+
+footer {
+    background-color: #1e1a13;
+}
+
+.conoceLink {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    padding: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
