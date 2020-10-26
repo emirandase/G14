@@ -8,6 +8,7 @@ header {
   background-size: cover;
   background-position: left;
   padding-bottom: 10rem;
+  margin: 0;
 }
 
 .carousel-indicators {

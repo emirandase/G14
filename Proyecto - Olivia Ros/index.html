@@ -16,49 +16,41 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>Navbar</a><!--el texto o la imagen se va a centrar verticalmente con el contenido, añado un Logo al nuevo nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a></a><!--el texto o la imagen se va a centrar verticalmente con el contenido, añado un Logo al nuevo nav-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Acerca de mi<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trabajos<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contacto<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
-    <header class="hero text-light text-right pt-5 mt-5">
+    <header class="container-fluid hero">
       <div class="container">
-        <h1 class="display-1 font-weight-bold my-5">Comidas del fin del mundo</h1>
-        <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="#work" class="btn btn-outline-info btn-lg mr-4">Trabajos</a>
-        <a href="#contact" class="btn btn-info btn-lg">Contacto</a>
+      <h1>Comidas del fin del mundo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea commodo consequat.</p>
+      <a class="btn btn-lg btn-outline-info">Trabajos</a>
+      <a class="btn btn-lg btn-info">Contacto</a>
       </div>
-    </header>
+      </header>
 
     <div class="container my-5 py-3">
       <div class="row">
