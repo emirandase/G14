@@ -20,7 +20,7 @@ h1 {
     font-family: 'Open Sans bold';
     font-size: 2.5rem;
     text-align: center;
-    margin: 2rem 0;
+    margin: 2.9rem 2rem 0 2rem;
 }
 
 h5 {
@@ -29,7 +29,7 @@ h5 {
 
 @media (max-width: 480px){
 
-    .contenedor-header-desktop {
+    .contenedor-pink {
         background-color: #e83e8c !important;
         color: #000000;
     }
@@ -39,13 +39,14 @@ h5 {
         padding-left: 1.1rem;
     }
 
-    .card1 {
+    .card {
         margin: auto;
         border-style: solid;
         border-width: thin;
         border-color: #A6ACAF ;
         background-color: #ffffff;
         font-family: 'Open Sans regular';
+        margin-top: 2.9rem;
     }
 
     .card-top {
@@ -72,6 +73,19 @@ h5 {
 
     .card-link {
         color: #17a2b8;
+    }
+
+    .area-footer {
+        margin-top: 2.9rem;
+    }
+
+    .logo-footer {
+        width: 2.5rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
