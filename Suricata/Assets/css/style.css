@@ -1,0 +1,77 @@
+/*He importado desde mis assets las fuentes*/
+@font-face {
+    font-family: 'Open Sans regular';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+body {
+    margin: auto;
+
+}
+
+h1 {
+    color: #919191;
+    font-weight: 700;
+    font-family: 'Open Sans bold';
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h5 {
+    font-family: 'Open Sans bold';
+}
+
+@media (max-width: 480px){
+
+    .contenedor-header-desktop {
+        background-color: #e83e8c !important;
+        color: #000000;
+    }
+
+    .suricata-nav {
+        width: 9rem;
+        padding-left: 1.1rem;
+    }
+
+    .card1 {
+        margin: auto;
+        border-style: solid;
+        border-width: thin;
+        border-color: #A6ACAF ;
+        background-color: #ffffff;
+        font-family: 'Open Sans regular';
+    }
+
+    .card-top {
+        padding: 13px 20px;
+    }
+
+    .card-bot {
+        padding: 10px 20px;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .list-group {
+        border-style: solid;
+        border-width: thin !important;
+        border-color: #A6ACAF;
+    }
+
+    .card-img-top {
+        height: 11rem;
+    }
+
+    .card-link {
+        color: #17a2b8;
+    }
+}
+
