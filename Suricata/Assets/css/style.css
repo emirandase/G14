@@ -31,7 +31,6 @@ h5 {
 
     .contenedor-pink {
         background-color: #e83e8c !important;
-        color: #000000;
     }
 
     .suricata-nav {
@@ -86,6 +85,86 @@ h5 {
         margin-right: auto;
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 1920px){
+
+    .contenedor-pink {
+        background-color: #e83e8c !important;
+        color: #000000;
+    }
+
+    .suricata-nav {
+        width: 9rem;
+        padding-left: 1.1rem;
+        color: #ffffff;
+    }
+
+    .navbar-collapse {
+        margin-left: 70%;
+        margin-right: 30%;
+        font-family: 'Open Sans regular';
+    }
+
+    .section-top, .section-bot {
+        justify-content: center;
+        display: inline-block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card {
+        border-style: solid;
+        border-width: thin;
+        border-color: #A6ACAF ;
+        background-color: #ffffff;
+        font-family: 'Open Sans regular';
+        margin-top: 2.9rem;
+        display: inline-block;
+    }
+
+    .card-top {
+        padding: 13px 20px;
+    }
+
+    .card-bot {
+        padding: 10px 20px;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .list-group {
+        border-style: solid;
+        border-width: thin !important;
+        border-color: #A6ACAF;
+    }
+
+    .card-img-top {
+        height: 11rem;
+    }
+
+    .card-link {
+        color: #17a2b8;
+    }
+
+    .area-footer {
+        margin-top: 2.9rem;
+    }
+
+    .logo-footer {
+        width: 2.5rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .cian {
+        background-color: #17a2b8;
     }
 }
 
