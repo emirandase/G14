@@ -1,170 +1,45 @@
-/*He importado desde mis assets las fuentes*/
-@font-face {
-    font-family: 'Open Sans regular';
-    src: url('../fonts/OpenSans-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Open Sans bold';
-    src: url('../fonts/OpenSans-Bold.ttf');
-}
-
 body {
-    margin: auto;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+.suricata-logo {
+    width: 7rem;
+}
+
+.contenedor-pink {
+    background-color: #e83e8c !important;
+}
+
+.productos-title {
     color: #919191;
-    font-weight: 700;
-    font-family: 'Open Sans bold';
-    font-size: 2.5rem;
+    padding-top: 5rem;
+}
+
+.logo-footer {
+    width: 4rem;
+    margin: 2rem;
+}
+
+.contenedor-cian {
+    background-color: #17a2b8;
+    vertical-align: middle;
+    margin-top: 4rem;
+}
+
+.footer-suricata-top {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin: 2.9rem 2rem 0 2rem;
 }
 
-h5 {
-    font-family: 'Open Sans bold';
+h3 {
+    margin: auto 4rem;
 }
 
-@media (max-width: 480px){
-
-    .contenedor-pink {
-        background-color: #e83e8c !important;
-    }
-
-    .suricata-nav {
-        width: 9rem;
-        padding-left: 1.1rem;
-    }
-
-    .card {
-        margin: auto;
-        border-style: solid;
-        border-width: thin;
-        border-color: #A6ACAF ;
-        background-color: #ffffff;
-        font-family: 'Open Sans regular';
-        margin-top: 2.9rem;
-    }
-
-    .card-top {
-        padding: 13px 20px;
-    }
-
-    .card-bot {
-        padding: 10px 20px;
-    }
-
-    .card-text {
-        font-size: 1.1rem;
-    }
-
-    .list-group {
-        border-style: solid;
-        border-width: thin !important;
-        border-color: #A6ACAF;
-    }
-
-    .card-img-top {
-        height: 11rem;
-    }
-
-    .card-link {
-        color: #17a2b8;
-    }
-
-    .area-footer {
-        margin-top: 2.9rem;
-    }
-
-    .logo-footer {
-        width: 2.5rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+i {
+    padding: 3.8rem 1rem;
 }
 
-@media (min-width: 1024px){
-
-    .contenedor-pink {
-        background-color: #e83e8c !important;
-        color: #000000;
-    }
-
-    .suricata-nav {
-        width: 9rem;
-        padding-left: 1.1rem;
-        color: #ffffff;
-    }
-
-    .navbar-collapse {
-        margin-left: 70%;
-        margin-right: 30%;
-        font-family: 'Open Sans regular';
-    }
-
-    .section-top, .section-bot {
-        justify-content: center;
-        display: inline-block;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .card {
-        border-style: solid;
-        border-width: thin;
-        border-color: #A6ACAF ;
-        background-color: #ffffff;
-        font-family: 'Open Sans regular';
-        margin-top: 2.9rem;
-        display: inline-block;
-    }
-
-    .card-top {
-        padding: 13px 20px;
-    }
-
-    .card-bot {
-        padding: 10px 20px;
-    }
-
-    .card-text {
-        font-size: 1.1rem;
-    }
-
-    .list-group {
-        border-style: solid;
-        border-width: thin !important;
-        border-color: #A6ACAF;
-    }
-
-    .card-img-top {
-        height: 11rem;
-    }
-
-    .card-link {
-        color: #17a2b8;
-    }
-
-    .area-footer {
-        margin-top: 2.9rem;
-    }
-
-    .logo-footer {
-        width: 2.5rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .cian {
-        background-color: #17a2b8;
-    }
+@media (max-width:767px) {
+    #hideonmobile {display:none;}
 }
-
