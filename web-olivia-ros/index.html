@@ -17,7 +17,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#"> <img src="./assets/img/logo.png" alt="Logo de Olivia Ros"></a>
 
@@ -41,7 +41,7 @@
     </div>
   </nav>
 
-  <header class="hero text-light text-right py-5">
+  <header class="hero text-light text-right pt-5 mt-5">
     <div class="container">
       <h1 class="display-1 font-weight-bold my-5">Comidas del fin del mundo</h1>
       <p class="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sed repudiandae ratione doloremque eum! Earum consectetur commodi, harum recusandae iste dolor magnam repellendus nesciunt. Voluptatem cupiditate consequuntur repudiandae ipsa consectetur?</p>
@@ -55,7 +55,6 @@
     <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam sint quis ea obcaecati in temporibus omnis odit odio, fugiat provident impedit atque earum est necessitatibus aliquam numquam autem quisquam.</p>
     
     <div class="row">
-
       <div class="col-md-4">
         <i class="fas fa-camera fa-3x my-3"></i> <!--fa-3x para hacer el icono mas grande, my-3 espaciados-->
         <h3 class="my-3">Fotógrafa de comida</h3>
@@ -73,9 +72,69 @@
         <h3 class="my-3">Bloggera de viajes</h3>
         <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque tenetur omnis blanditiis quis reprehenderit sint, ex tempora, inventore modi placeat aliquam repellat dignissimos, beatae dolore debitis quam quos dolorum porro!</p>
       </div>
-
     </div>
   </section>
+
+  <section class="container-fluid my-5 p-5 bg-info">
+    <h2 class="display-3 text-center font-weight-bold my-4 text-white">Mis trabajos</h2>
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/img/card-1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Asado en la patagonia</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-outline-info">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/img/card-2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Papas del fin del mundo</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-outline-info">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/img/card-3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Salmones de Alaska</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="#" class="btn btn-outline-info">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
+    <p class="text-center my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, labore! Libero qui labore, sequi explicabo inventore, dolores esse repellat odit quod sunt ad, aspernatur nisi maxime consequuntur eum architecto at.</p>
+    
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Nombre</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <div class="text-right">
+        <button type="submit" class="btn btn-info">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-center text-light p-3"><!--background, alinear al centro, color, padding-->
+    <p>Olivia Ros 2020. Todos los derechos reservados.</p>
+  </footer>
 
 
   <!--jquery. popper, javascript-->
