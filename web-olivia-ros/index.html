@@ -28,13 +28,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Acerca de mi<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">Acerca de mi<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#work">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
         </ul>
       </div>
@@ -45,12 +45,12 @@
     <div class="container">
       <h1 class="display-1 font-weight-bold my-5">Comidas del fin del mundo</h1>
       <p class="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sed repudiandae ratione doloremque eum! Earum consectetur commodi, harum recusandae iste dolor magnam repellendus nesciunt. Voluptatem cupiditate consequuntur repudiandae ipsa consectetur?</p>
-      <a href="#" class="btn btn-outline-info btn-lg">Trabajos</a>
-      <a href="#" class="btn btn-info btn-lg">Contacto</a>
+      <a href="#work" class="btn btn-outline-info btn-lg">Trabajos</a>
+      <a href="#contact" class="btn btn-info btn-lg">Contacto</a>
     </div>
   </header>
 
-  <section class="container text-center my-5">
+  <section id="about" class="container text-center my-5">
     <h2 class="display-3 font-weight-bold my-4">Acerca de mí</h2> <!--tamaño de letra, negrita, separaciones-->
     <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam sint quis ea obcaecati in temporibus omnis odit odio, fugiat provident impedit atque earum est necessitatibus aliquam numquam autem quisquam.</p>
     
@@ -75,38 +75,118 @@
     </div>
   </section>
 
-  <section class="container-fluid my-5 p-5 bg-info">
+  <section id="work" class="container-fluid my-5 p-5 bg-info">
     <h2 class="display-3 text-center font-weight-bold my-4 text-white">Mis trabajos</h2>
-
+<!--Desafio opcional - IMPLEMENTANDO MODALES-->
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="./assets/img/card-1.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Asado en la patagonia</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-outline-info">Ver más</a>
+          <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#asado">Ver más</a>
         </div>
       </div>
+
       <div class="card">
         <img class="card-img-top" src="./assets/img/card-2.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Papas del fin del mundo</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-outline-info">Ver más</a>
-        </div>
+          <div class="card-body">
+            <h5 class="card-title">Papas del fin del mundo</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#papas">Ver más</a>
+          </div>
       </div>
+
       <div class="card">
         <img class="card-img-top" src="./assets/img/card-3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Salmones de Alaska</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <a href="#" class="btn btn-outline-info">Ver más</a>
-        </div>
+          <div class="card-body">
+            <h5 class="card-title">Salmones de Alaska</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#salmones">Ver más</a>
+          </div>
       </div>
     </div>
   </section>
+<!--Modal1-->
+    <div class="modal fade" id="asado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
 
-  <section class="container my-5">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Asado en la Patagonia</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <img src="./assets/img/card-1.jpg" class="img-fluid my-3" alt="Asado">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--Modal2-->
+    <div class="modal fade" id="papas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Papas del Fin Del Mundo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <img src="./assets/img/card-2.jpg" class="img-fluid my-3" alt="Asado">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--Modal3-->
+    <div class="modal fade" id="salmones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Salmones de Alaska</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <img src="./assets/img/card-3.jpg" class="img-fluid my-3" alt="Asado">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos autem omnis molestiae rem, iure commodi, tempora consequatur provident enim, ad odit neque quo porro quam? Atque eum commodi animi.</p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--fin desafio opcional-->
+  <section id="contact" class="container my-5">
     <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
     <p class="text-center my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, labore! Libero qui labore, sequi explicabo inventore, dolores esse repellat odit quod sunt ad, aspernatur nisi maxime consequuntur eum architecto at.</p>
     
@@ -137,10 +217,13 @@
   </footer>
 
 
-  <!--jquery. popper, javascript-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--jquery (sin slim), popper, javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <!--mi script-->
+  <script src="./assets/js/script.js" ></script>
+
 </body>
 
 </html>
